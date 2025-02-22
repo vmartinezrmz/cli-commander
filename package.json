@@ -1,0 +1,35 @@
+{
+	"name": "@vmartinezrmz/cli-commander",
+	"version": "0.0.1",
+	"description": "Project express generator with services, controllers, models using sequelize",
+	"main": "./src/cli.js",
+	"type": "module",
+	"bin": "./src/cli.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon src/cli.js",
+		"start": "node src/cli.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vmartinezrmz/cli-commander.git"
+	},
+	"keywords": [
+		"cli",
+		"commander",
+		"express",
+		"generator"
+	],
+	"author": "@vmartinezrmz",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vmartinezrmz/cli-commander/issues"
+	},
+	"homepage": "https://github.com/vmartinezrmz/cli-commander#readme",
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"commander": "^13.1.0",
+		"prompts": "^2.4.2",
+		"semver": "^7.7.1"
+	}
+}
